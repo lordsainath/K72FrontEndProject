@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
 @font-face {
   font-family: "font1";
   src: url("../public/Lausanne-300.woff2") format("woff2");
